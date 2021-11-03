@@ -1,6 +1,8 @@
 # ShoppingList
 
 https://user-images.githubusercontent.com/80672561/140074956-7795dd91-fa96-42fb-9160-5ec54e033b01.mov
+
+
 https://user-images.githubusercontent.com/80672561/140075005-0ec5ffa1-6a1d-4d69-8a42-1ebff9188ee8.mov
 
 ## 사용한 것
@@ -18,7 +20,7 @@ UserDefaults는 String, Int 등의 간단한 단일 데이터를 저장하는데
 ## 리팩토링
 - [ ] sorterd(byKeyPath: , ascending)을 해서 구현했는데 다시 수정하는 것 까지는 구현하지 못함..
 
-## 시간 잡아 먹은 
+## 시간 잡아 먹은 부분
 1. 시간을 가장 많이 잡아 먹은 부분이,, 우선 폴더를 옮겨서 경로 에러가 발생해서 수정하는데 한참 걸림 ...
 2. 정렬하는 부분에서 sort를 사용하면 된다는 것은 알았는데 찾아보는데 꽤 걸림
 3. 과제하면서 제일 화난 부분이 .. 처음에 Cocoapods으로 Realm을 사용했는데 ㅋㅋ 
