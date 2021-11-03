@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/80672561/140075005-0ec5ffa1-6a1d-4d69-
 - [x] Realm
 - [x] Alert
 - [x] ActionSheet
-- [x] UITableView
+- [x] UITableView -> Edit, Swipe
 
 ## 주요 기능
 MongoDB, Realm을 활용한 쇼핑 리스트 추가 기능
