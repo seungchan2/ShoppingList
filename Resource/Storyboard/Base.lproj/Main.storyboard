@@ -68,6 +68,19 @@
                                     <action selector="touchListButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XFR-E4-NuN"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sa0-u0-MJe">
+                                <rect key="frame" x="354" y="54" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="tdm-1d-l2E"/>
+                                    <constraint firstAttribute="width" constant="40" id="uYk-vm-jm5"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="gearshape" catalog="system"/>
+                                <connections>
+                                    <action selector="pushSettingView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="baQ-iG-NE8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -79,9 +92,12 @@
                             <constraint firstItem="nGH-JQ-TUg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JJS-xT-6GF"/>
                             <constraint firstItem="nFG-N2-gdl" firstAttribute="centerY" secondItem="7C5-AA-93U" secondAttribute="centerY" id="MUu-tq-oHX"/>
                             <constraint firstItem="XkJ-GH-ApL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="NGk-pP-8uk"/>
+                            <constraint firstItem="Sa0-u0-MJe" firstAttribute="centerY" secondItem="nGH-JQ-TUg" secondAttribute="centerY" id="ZJV-z9-43z"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WKF-2P-htY" secondAttribute="trailing" id="Znk-cL-aUK"/>
                             <constraint firstItem="7C5-AA-93U" firstAttribute="top" secondItem="nGH-JQ-TUg" secondAttribute="bottom" constant="30" id="dE0-0J-f1c"/>
                             <constraint firstItem="WKF-2P-htY" firstAttribute="top" secondItem="7C5-AA-93U" secondAttribute="bottom" constant="20" id="enT-Hj-jbV"/>
+                            <constraint firstItem="Sa0-u0-MJe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="h5k-NQ-tBM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sa0-u0-MJe" secondAttribute="trailing" constant="20" id="htO-qq-A4N"/>
                             <constraint firstItem="nGH-JQ-TUg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="sL7-nQ-Mwg"/>
                             <constraint firstItem="XkJ-GH-ApL" firstAttribute="centerY" secondItem="nGH-JQ-TUg" secondAttribute="centerY" id="sZh-hK-Emc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WKF-2P-htY" secondAttribute="bottom" id="u7i-GG-Bsa"/>
@@ -101,6 +117,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="list.dash" catalog="system" width="128" height="85"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

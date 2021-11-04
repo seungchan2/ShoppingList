@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
         tasks = localRealm.objects(Product.self)
         print("Realm:",localRealm.configuration.fileURL!)
+        tableView.reloadData()
         
     }
     
@@ -105,6 +106,12 @@ class ViewController: UIViewController {
         alert.addAction(cancelAction)
 
         self.present(alert, animated: true, completion: nil)
+    }
+    
+    @IBAction func pushSettingView(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Setting", bundle: nil)
+        guard let nextVC = storyboard.instantiateViewController(withIdentifier: "SettingViewController") as? SettingViewController else { return }
+        self.present(nextVC, animated: true, completion: nil)
     }
 }
 
