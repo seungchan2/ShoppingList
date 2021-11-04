@@ -1,24 +1,38 @@
 # ShoppingList
 
+
+https://user-images.githubusercontent.com/80672561/140287751-48d55fdd-b960-49a5-8d07-92289d48e770.mov
+
+
 https://user-images.githubusercontent.com/80672561/140074956-7795dd91-fa96-42fb-9160-5ec54e033b01.mov
 
 
 https://user-images.githubusercontent.com/80672561/140075005-0ec5ffa1-6a1d-4d69-8a42-1ebff9188ee8.mov
 
 ## 사용한 것
+- Day26
 - [x] Realm
 - [x] Alert
 - [x] ActionSheet
 - [x] UITableView -> Edit, Swipe
 
-## 주요 기능
-MongoDB, Realm을 활용한 쇼핑 리스트 추가 기능
-UserDefaults와 Realm의 차이점 
-UserDefaults는 String, Int 등의 간단한 단일 데이터를 저장하는데 적합하기 때문에, 객체 형태로 여러 데이터를 저장하고 관리하는데 어려움이 있음..
+- Day27
+- [x] FileManager 
+- [x] zip
+- [x] MobileCoreServices
 
+
+## 주요 기능
+Day26
+- MongoDB, Realm을 활용한 쇼핑 리스트 추가 기능
+- UserDefaults는 String, Int 등의 간단한 단일 데이터를 저장하는데 적합하기 때문에, 객체 형태로 여러 데이터를 저장하고 관리하는데 어려움이 있음..
+
+Day27
+- 백업하기, 복구하기 print를 찍었을 때 잘 나왔늗네 테이블뷰에 갱신이 안됨.. --> 해결 필요!!!
 
 ## 리팩토링
 - [ ] sorterd(byKeyPath: , ascending)을 해서 구현했는데 다시 수정하는 것 까지는 구현하지 못함..
+- [ ] 복구하기를 누른 후 테이블뷰에 갱신이 안됨 --> 수정 필요
 
 ## 시간 잡아 먹은 부분
 1. 시간을 가장 많이 잡아 먹은 부분이,, 우선 폴더를 옮겨서 경로 에러가 발생해서 수정하는데 한참 걸림 ...
